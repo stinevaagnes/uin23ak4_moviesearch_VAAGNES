@@ -30,5 +30,10 @@ function App() {
   );
 }
 
-
 export default App;
+
+//Kilder:
+//Samarbeidet med Marianne Stavrum Myrvold og Jennifer Grimsrud
+//https://github.com/ackarlse/news
+//https://github.com/ackarlse/gitcollab
+//https://github.com/ackarlse/api-recipe
