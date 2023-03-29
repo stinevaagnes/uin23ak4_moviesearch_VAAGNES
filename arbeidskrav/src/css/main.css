@@ -27,6 +27,9 @@ body .container nav {
 body .container nav input {
   padding: 0.5rem;
 }
+body .container nav .Search-button {
+  cursor: pointer;
+}
 body .container main .movies {
   display: flex;
   justify-content: center;
@@ -41,7 +44,6 @@ body .container main .movie-card {
   width: 100%;
   padding: 1rem;
   background-color: #fff;
-  border: 0.7 rem solid #762A04;
 }
 body .container main .movie-card img {
   max-width: 300px;
@@ -49,14 +51,14 @@ body .container main .movie-card img {
 body .container main .movie-card h3 {
   font-family: "Nunito Sans", sans-serif;
   font-family: "Oswald", sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   margin-top: 5px;
   margin-bottom: 0px;
 }
 body .container main .movie-card h4 {
   font-family: "Nunito Sans", sans-serif;
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 0px;
   margin-bottom: 0px;
 }

@@ -13,8 +13,8 @@ export default function SearchReult({setSearch, getMovies}){
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="search" placeholder="..." onChange={handleSearch}/>
-            <input type="submit" onClick={getMovies} value="Search" />
+            <input className="Search" type="search" placeholder="..." onChange={handleSearch}/>
+            <input className="Search-button" type="submit" onClick={getMovies} value="Search" />
         </form>
     )
 }
@@ -24,3 +24,4 @@ export default function SearchReult({setSearch, getMovies}){
 //https://github.com/ackarlse/news
 //https://github.com/ackarlse/gitcollab
 //https://github.com/ackarlse/api-recipe
+//LMS Webtricks for UIN
