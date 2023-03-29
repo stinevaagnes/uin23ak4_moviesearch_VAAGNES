@@ -1,4 +1,5 @@
 import './App.css';
+import './css/main.css'
 import Layout from './components/Layout'
 import React, { useEffect, useState } from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';

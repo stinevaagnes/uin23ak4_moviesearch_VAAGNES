@@ -1,0 +1,91 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Oswald:wght@300;500&display=swap');
+
+body {
+
+    background-color: $Brown;
+
+    .container {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+
+        header {
+            display: flex;
+            justify-content: center;
+
+            h1{
+                color: $White;
+                font-family: 'Nunito Sans', sans-serif;
+                font-family: 'Oswald', sans-serif;
+                font-size: 60px;
+                margin-bottom: 0px;
+                }  
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+            
+
+            input {
+                padding: 0.5rem;
+            }
+        }
+
+                
+        main{
+
+                .movies {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                }
+
+                .movie-card {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    max-width: 350px;
+                    width: 100%;
+                    padding: 1rem;
+                    background-color: $White;
+                    border: 0.7 rem solid $DarkOrange;
+
+                    img {
+                        max-width: 300px;
+                    }
+
+                    h3 {
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 30px;
+                        margin-top: 5px;
+                        margin-bottom: 0px;
+                    }
+
+                    h4 {
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 20px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+
+                    p {
+                        margin-top: 5px;
+                        margin-bottom: 0px;
+                    }
+                }
+        }
+    }
+}
+
+//Kilder:
+//Jobbet sammen med Marianne Stavrum Myrvold og Jennifer Grimsrud
+//https://github.com/ackarlse/news
+//https://github.com/ackarlse/gitcollab
+//https://github.com/ackarlse/api-recipe

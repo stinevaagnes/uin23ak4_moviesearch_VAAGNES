@@ -1,3 +1,68 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Oswald:wght@300;500&display=swap");
+body {
+  background-color: #140000;
+}
+body .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .container header {
+  display: flex;
+  justify-content: center;
+}
+body .container header h1 {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+body .container nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+body .container nav input {
+  padding: 0.5rem;
+}
+body .container main .movies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+body .container main .movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 350px;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  border: 0.7 rem solid #762A04;
+}
+body .container main .movie-card img {
+  max-width: 300px;
+}
+body .container main .movie-card h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+body .container main .movie-card h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body .container main .movie-card p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
 
 /*# sourceMappingURL=main.css.map */

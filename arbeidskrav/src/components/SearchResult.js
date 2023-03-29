@@ -14,7 +14,7 @@ export default function SearchReult({setSearch, getMovies}){
     return (
         <form onSubmit={handleSubmit}>
             <input type="search" placeholder="..." onChange={handleSearch}/>
-            <input type="submit" onClick={getMovies} value="Søk" />
+            <input type="submit" onClick={getMovies} value="Search" />
         </form>
     )
 }
